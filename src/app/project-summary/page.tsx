@@ -56,7 +56,7 @@ export default function ProjectSummary() {
 
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">System Architecture</h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          The following sequence diagram illustrates the system's workflow, from user authentication through email processing and AI-powered analysis:
+          The following sequence diagram illustrates the system&apos;s workflow, from user authentication through email processing and AI-powered analysis:
         </p>
         <div className="mb-8">
           <MermaidChart chart={sequenceDiagram} id="system-architecture-diagram" />
@@ -105,7 +105,7 @@ export default function ProjectSummary() {
           AI-powered functionalities. The integration of cutting-edge technologies such as Clerk.com, Prisma ORM, PostgreSQL, 
           Neon Database Serverless, Pinecone, and OpenAI Edge ensures a scalable, secure, and efficient platform. Future work 
           will focus on expanding AI capabilities, integrating additional email providers, and enhancing user customization 
-          options to further improve the platform's adaptability and performance.
+          options to further improve the platform&apos;s adaptability and performance.
         </p>
       </div>
     </div>

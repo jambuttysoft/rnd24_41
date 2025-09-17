@@ -371,7 +371,7 @@ export default function Experiment1() {
                   Indexing Results ({indexResults.length}/{emails.length})
                 </h3>
                 <div className="grid gap-4">
-                  {indexResults.map((result, index) => {
+                  {indexResults.map((result) => {
                     const email = emails.find(e => e.id === result.id);
                     return (
                       <div key={result.id} className="bg-gray-50 rounded-lg p-4 border border-gray-200">

@@ -1,6 +1,6 @@
 'use client';
 
-import { CheckCircleIcon, ExclamationTriangleIcon, LightBulbIcon, ChartBarIcon, CogIcon, DocumentTextIcon, MagnifyingGlassIcon, EnvelopeIcon, CloudArrowUpIcon } from '@heroicons/react/24/outline';
+import { CheckCircleIcon, ExclamationTriangleIcon, LightBulbIcon, CogIcon, DocumentTextIcon, MagnifyingGlassIcon, EnvelopeIcon, CloudArrowUpIcon } from '@heroicons/react/24/outline';
 
 export default function FinalResults() {
   const experimentResults = {
@@ -50,51 +50,6 @@ export default function FinalResults() {
       title: 'Custom data upload',
       description: 'Support for uploading user email data in JSON format',
       status: 'completed'
-    }
-  ];
-
-  const futureImprovements = [
-    {
-      icon: EnvelopeIcon,
-      title: 'Real email provider integration',
-      description: 'Connection to Gmail, Outlook, Yahoo and other email services via API',
-      priority: 'high',
-      complexity: 'high'
-    },
-    {
-      icon: ChartBarIcon,
-      title: 'Advanced AI analytics',
-      description: 'Sentiment analysis, categorization, automatic summary creation',
-      priority: 'high',
-      complexity: 'medium'
-    },
-    {
-      icon: MagnifyingGlassIcon,
-      title: 'Vector database',
-      description: 'Pinecone integration for more efficient search and indexing',
-      priority: 'medium',
-      complexity: 'high'
-    },
-    {
-      icon: CogIcon,
-      title: 'Multi-user system',
-      description: 'Authentication via Clerk.com and personal workspaces',
-      priority: 'medium',
-      complexity: 'medium'
-    },
-    {
-      icon: ChartBarIcon,
-      title: 'Advanced visualization',
-      description: 'Charts, diagrams and dashboards for email activity analysis',
-      priority: 'low',
-      complexity: 'medium'
-    },
-    {
-      icon: DocumentTextIcon,
-      title: 'Mobile application',
-      description: 'React Native app for system access from mobile devices',
-      priority: 'low',
-      complexity: 'high'
     }
   ];
 
